@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FaqBot.Api/FaqBot.Api.csproj" />
+    <Project Path="src/FaqBot.Core/FaqBot.Core.csproj" />
+    <Project Path="src/FaqBot.Infrastructure/FaqBot.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FaqBot.Tests/FaqBot.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/FaqBot.Evaluator/FaqBot.Evaluator.csproj" />
+  </Folder>
+</Solution>
