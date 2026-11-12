@@ -1,0 +1,17 @@
+**/bin
+**/obj
+**/appdata
+**/node_modules
+.git
+.github
+.vs
+.vscode
+docs
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/*.user
+**/.env
+.env
+TestResults
+**/TestResults

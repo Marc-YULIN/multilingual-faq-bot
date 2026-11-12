@@ -1,0 +1,15 @@
+services:
+  faqbot:
+    build: .
+    ports:
+      - "5108:5108"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      Admin__Key: ${ADMIN_KEY:-}
+      Llm__Provider: Auto
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+    volumes:
+      - faqbot-data:/app/appdata
+    restart: unless-stopped
+volumes:
+  faqbot-data:
