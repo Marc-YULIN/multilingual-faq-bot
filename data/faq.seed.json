@@ -1,0 +1,1264 @@
+[
+  {
+    "id": "account.register",
+    "category": "account",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "如何註冊 Acme Store 帳號？",
+        "answer": "在首頁選擇「註冊」，輸入電子郵件並設定密碼。開啟驗證信完成驗證後，就能登入並開始購物。",
+        "alternateQuestions": [
+          "我要建立會員帳號",
+          "第一次購物怎麼加入會員"
+        ],
+        "keywords": [
+          "註冊",
+          "會員",
+          "建立帳號",
+          "驗證信"
+        ]
+      },
+      "en": {
+        "question": "How do I create an Acme Store account?",
+        "answer": "Select Sign up on the home page and enter your email address and a password. Open the verification email to activate your account before signing in.",
+        "alternateQuestions": [
+          "How can I register as a member?",
+          "Where do I sign up for an account?"
+        ],
+        "keywords": [
+          "register",
+          "sign up",
+          "create account",
+          "verification email"
+        ]
+      },
+      "ko": {
+        "question": "Acme Store 계정은 어떻게 만드나요?",
+        "answer": "홈 화면에서 회원가입을 선택하고 이메일 주소와 비밀번호를 입력하세요. 인증 메일의 링크를 열어 인증을 마치면 로그인할 수 있습니다.",
+        "alternateQuestions": [
+          "처음인데 회원가입하고 싶어요",
+          "새 계정은 어디서 만들 수 있나요?"
+        ],
+        "keywords": [
+          "회원가입",
+          "계정 생성",
+          "이메일",
+          "인증 메일"
+        ]
+      },
+      "vi": {
+        "question": "Làm sao để tạo tài khoản Acme Store?",
+        "answer": "Chọn Đăng ký trên trang chủ rồi nhập email và mật khẩu. Mở email xác minh để kích hoạt tài khoản trước khi đăng nhập.",
+        "alternateQuestions": [
+          "Tôi muốn đăng ký thành viên",
+          "Tạo tài khoản mới ở đâu?"
+        ],
+        "keywords": [
+          "đăng ký",
+          "tạo tài khoản",
+          "thành viên",
+          "email xác minh"
+        ]
+      }
+    }
+  },
+  {
+    "id": "account.reset-password",
+    "category": "account",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "忘記密碼怎麼辦？",
+        "answer": "在登入頁選擇「忘記密碼」，輸入註冊時的電子郵件。使用重設信中的連結設定新密碼；若未收到，請先查看垃圾郵件匣。",
+        "alternateQuestions": [
+          "密碼忘了怎麼重設",
+          "收不到重設密碼信"
+        ],
+        "keywords": [
+          "忘記密碼",
+          "重設密碼",
+          "登入",
+          "重設信"
+        ]
+      },
+      "en": {
+        "question": "How do I reset a forgotten password?",
+        "answer": "Select Forgot password on the sign-in page and enter your registered email address. Follow the link in the reset email to set a new password; check your spam folder if it does not arrive.",
+        "alternateQuestions": [
+          "I forgot my password",
+          "Where is my password reset email?"
+        ],
+        "keywords": [
+          "forgot password",
+          "reset password",
+          "sign in",
+          "reset email"
+        ]
+      },
+      "ko": {
+        "question": "비밀번호를 잊어버리면 어떻게 하나요?",
+        "answer": "로그인 화면에서 비밀번호 찾기를 선택하고 가입한 이메일 주소를 입력하세요. 재설정 메일의 링크에서 새 비밀번호를 설정하고, 메일이 없으면 스팸함도 확인하세요.",
+        "alternateQuestions": [
+          "비밀번호를 다시 설정하고 싶어요",
+          "비밀번호 재설정 메일이 안 와요"
+        ],
+        "keywords": [
+          "비밀번호 찾기",
+          "비밀번호 재설정",
+          "로그인",
+          "재설정 메일"
+        ]
+      },
+      "vi": {
+        "question": "Tôi quên mật khẩu thì phải làm gì?",
+        "answer": "Chọn Quên mật khẩu trên trang đăng nhập và nhập email đã đăng ký. Dùng liên kết trong email đặt lại để tạo mật khẩu mới; hãy kiểm tra thư rác nếu chưa nhận được.",
+        "alternateQuestions": [
+          "Làm thế nào để đặt lại mật khẩu?",
+          "Không nhận được email khôi phục mật khẩu"
+        ],
+        "keywords": [
+          "quên mật khẩu",
+          "đặt lại mật khẩu",
+          "đăng nhập",
+          "email khôi phục"
+        ]
+      }
+    }
+  },
+  {
+    "id": "account.change-phone",
+    "category": "account",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "如何修改綁定的手機號碼？",
+        "answer": "登入後到「帳戶設定」選擇「手機號碼」，輸入新號碼並完成簡訊驗證。若舊號碼已無法接收簡訊，請聯絡客服協助核對身分。",
+        "alternateQuestions": [
+          "換手機號碼要怎麼更新",
+          "舊手機停用了怎麼改號碼"
+        ],
+        "keywords": [
+          "修改手機",
+          "手機號碼",
+          "簡訊驗證",
+          "換號"
+        ]
+      },
+      "en": {
+        "question": "How do I change my phone number?",
+        "answer": "Open Phone number in Account settings and verify your new number by text message. If you cannot receive messages at your old number, contact support for identity verification.",
+        "alternateQuestions": [
+          "Can I update my mobile number?",
+          "My old phone number no longer works"
+        ],
+        "keywords": [
+          "change phone",
+          "mobile number",
+          "text verification",
+          "update number"
+        ]
+      },
+      "ko": {
+        "question": "등록한 휴대폰 번호는 어떻게 변경하나요?",
+        "answer": "계정 설정의 휴대폰 번호에서 새 번호를 입력하고 문자 인증을 완료하세요. 기존 번호로 문자를 받을 수 없다면 고객센터에서 본인 확인을 진행해 주세요.",
+        "alternateQuestions": [
+          "연락처를 새 번호로 바꾸고 싶어요",
+          "예전 휴대폰 번호를 더 이상 못 써요"
+        ],
+        "keywords": [
+          "휴대폰 번호",
+          "번호 변경",
+          "문자 인증",
+          "연락처"
+        ]
+      },
+      "vi": {
+        "question": "Làm sao để đổi số điện thoại đã liên kết?",
+        "answer": "Mở mục Số điện thoại trong Cài đặt tài khoản, nhập số mới và xác minh bằng tin nhắn. Nếu không còn nhận được tin nhắn ở số cũ, hãy liên hệ hỗ trợ để xác minh danh tính.",
+        "alternateQuestions": [
+          "Tôi muốn cập nhật số di động",
+          "Số điện thoại cũ không dùng được nữa"
+        ],
+        "keywords": [
+          "đổi số điện thoại",
+          "số di động",
+          "tin nhắn xác minh",
+          "cập nhật số"
+        ]
+      }
+    }
+  },
+  {
+    "id": "account.two-factor",
+    "category": "account",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "如何啟用雙重驗證？",
+        "answer": "前往「帳戶設定」的「安全性」，開啟雙重驗證並依畫面綁定驗證器。請妥善保存備用碼，手機遺失時可用備用碼登入。",
+        "alternateQuestions": [
+          "怎麼設定兩步驟驗證",
+          "驗證器備用碼在哪裡",
+          "如何開啟兩階段驗證讓帳號更安全"
+        ],
+        "keywords": [
+          "雙重驗證",
+          "兩步驟驗證",
+          "驗證器",
+          "備用碼"
+        ]
+      },
+      "en": {
+        "question": "How do I enable two-factor authentication?",
+        "answer": "Open Security in Account settings and follow the steps to link an authenticator. Save your backup codes so you can sign in if you lose your phone.",
+        "alternateQuestions": [
+          "How can I set up two-step verification?",
+          "Where are my authenticator backup codes?"
+        ],
+        "keywords": [
+          "two factor",
+          "two step",
+          "authenticator",
+          "backup codes"
+        ]
+      },
+      "ko": {
+        "question": "2단계 인증은 어떻게 설정하나요?",
+        "answer": "계정 설정의 보안 메뉴에서 2단계 인증을 켜고 안내에 따라 인증 앱을 연결하세요. 휴대폰을 잃어버렸을 때 로그인할 수 있도록 백업 코드를 안전하게 보관하세요.",
+        "alternateQuestions": [
+          "이중 인증을 켜고 싶어요",
+          "인증 앱 백업 코드는 어디에 있나요?"
+        ],
+        "keywords": [
+          "2단계 인증",
+          "이중 인증",
+          "인증 앱",
+          "백업 코드"
+        ]
+      },
+      "vi": {
+        "question": "Làm sao để bật xác thực hai bước?",
+        "answer": "Mở mục Bảo mật trong Cài đặt tài khoản và làm theo hướng dẫn để liên kết ứng dụng xác thực. Lưu mã dự phòng ở nơi an toàn để đăng nhập khi mất điện thoại.",
+        "alternateQuestions": [
+          "Tôi muốn bật bảo mật hai lớp",
+          "Mã dự phòng của ứng dụng xác thực ở đâu?"
+        ],
+        "keywords": [
+          "xác thực hai bước",
+          "bảo mật hai lớp",
+          "ứng dụng xác thực",
+          "mã dự phòng"
+        ]
+      }
+    }
+  },
+  {
+    "id": "payment.methods",
+    "category": "payment",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "支援哪些付款方式？",
+        "answer": "Acme Store 支援信用卡、Demo Bank 虛擬帳號及 Sample Pay。結帳頁會顯示該筆訂單可用的付款方式，部分商品可能有限制。",
+        "alternateQuestions": [
+          "可以用什麼方式付錢",
+          "能使用信用卡或轉帳嗎"
+        ],
+        "keywords": [
+          "付款方式",
+          "信用卡",
+          "轉帳",
+          "虛擬帳號"
+        ]
+      },
+      "en": {
+        "question": "Which payment methods are accepted?",
+        "answer": "Acme Store accepts credit cards, Demo Bank virtual accounts, and Sample Pay. The checkout page lists methods available for your order, as some products have restrictions.",
+        "alternateQuestions": [
+          "How can I pay for my order?",
+          "Can I pay by card or bank transfer?"
+        ],
+        "keywords": [
+          "payment methods",
+          "credit card",
+          "bank transfer",
+          "virtual account"
+        ]
+      },
+      "ko": {
+        "question": "어떤 결제 수단을 사용할 수 있나요?",
+        "answer": "Acme Store에서는 신용카드, Demo Bank 가상계좌, Sample Pay를 사용할 수 있습니다. 상품에 따라 제한이 있을 수 있으니 주문 결제 화면에서 가능한 수단을 확인하세요.",
+        "alternateQuestions": [
+          "카드나 계좌이체로 결제할 수 있나요?",
+          "주문할 때 어떻게 돈을 내나요?"
+        ],
+        "keywords": [
+          "결제 수단",
+          "신용카드",
+          "계좌이체",
+          "가상계좌"
+        ]
+      },
+      "vi": {
+        "question": "Cửa hàng hỗ trợ những phương thức thanh toán nào?",
+        "answer": "Acme Store chấp nhận thẻ tín dụng, tài khoản ảo Demo Bank và Sample Pay. Trang thanh toán hiển thị các phương thức dùng được cho đơn hàng vì một số sản phẩm có giới hạn.",
+        "alternateQuestions": [
+          "Tôi có thể trả tiền bằng cách nào?",
+          "Có thể dùng thẻ hoặc chuyển khoản không?"
+        ],
+        "keywords": [
+          "phương thức thanh toán",
+          "thẻ tín dụng",
+          "chuyển khoản",
+          "tài khoản ảo"
+        ]
+      }
+    }
+  },
+  {
+    "id": "payment.failed",
+    "category": "payment",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "付款失敗時該怎麼處理？",
+        "answer": "請先確認卡片有效期限、額度與驗證資料，再回到訂單頁重新付款。若仍失敗，請改用其他方式並聯絡客服，勿重複建立相同訂單。",
+        "alternateQuestions": [
+          "刷卡一直失敗怎麼辦",
+          "結帳付款出現錯誤"
+        ],
+        "keywords": [
+          "付款失敗",
+          "刷卡失敗",
+          "結帳錯誤",
+          "重新付款"
+        ]
+      },
+      "en": {
+        "question": "What should I do if payment fails?",
+        "answer": "Check your card expiry date, available credit, and verification details, then retry payment from your order page. If it still fails, choose another method and contact support without creating duplicate orders.",
+        "alternateQuestions": [
+          "My card payment keeps failing",
+          "There is an error during checkout payment"
+        ],
+        "keywords": [
+          "payment failed",
+          "card declined",
+          "checkout error",
+          "retry payment"
+        ]
+      },
+      "ko": {
+        "question": "결제가 실패하면 어떻게 하나요?",
+        "answer": "카드 유효기간, 한도와 인증 정보를 확인한 뒤 주문 화면에서 다시 결제해 주세요. 계속 실패하면 다른 수단을 선택하고 고객센터에 문의하되 같은 주문을 중복으로 만들지 마세요.",
+        "alternateQuestions": [
+          "카드 승인이 계속 거절돼요",
+          "주문 결제 중 오류가 나요"
+        ],
+        "keywords": [
+          "결제 실패",
+          "승인 거절",
+          "결제 오류",
+          "재결제"
+        ]
+      },
+      "vi": {
+        "question": "Tôi phải làm gì khi thanh toán thất bại?",
+        "answer": "Kiểm tra hạn thẻ, hạn mức và thông tin xác minh rồi thanh toán lại từ trang đơn hàng. Nếu vẫn thất bại, hãy chọn cách khác và liên hệ hỗ trợ, tránh tạo đơn trùng lặp.",
+        "alternateQuestions": [
+          "Thẻ bị từ chối liên tục",
+          "Báo lỗi khi trả tiền lúc đặt hàng"
+        ],
+        "keywords": [
+          "thanh toán thất bại",
+          "thẻ bị từ chối",
+          "lỗi thanh toán",
+          "thanh toán lại"
+        ]
+      }
+    }
+  },
+  {
+    "id": "refund.status",
+    "category": "refund",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "如何查詢退款進度？",
+        "answer": "在「我的訂單」開啟該筆訂單的退款紀錄。退款核准後通常需三到七個工作天入帳，實際時間依原付款方式而定。",
+        "alternateQuestions": [
+          "退費多久會收到",
+          "退款還沒入帳怎麼查"
+        ],
+        "keywords": [
+          "退款",
+          "退費",
+          "退款進度",
+          "入帳"
+        ]
+      },
+      "en": {
+        "question": "How can I check my refund status?",
+        "answer": "Open the refund record for the relevant order in My orders. Approved refunds usually arrive within three to seven business days, depending on the original payment method.",
+        "alternateQuestions": [
+          "When will I get my money back?",
+          "My refund has not arrived yet"
+        ],
+        "keywords": [
+          "refund",
+          "money back",
+          "refund status",
+          "processing time"
+        ]
+      },
+      "ko": {
+        "question": "환불 진행 상황은 어디서 확인하나요?",
+        "answer": "내 주문에서 해당 주문의 환불 내역을 확인하세요. 승인된 환불은 보통 영업일 기준 3~7일이 걸리며 원래 결제 수단에 따라 달라집니다.",
+        "alternateQuestions": [
+          "환불금이 언제 들어오나요?",
+          "돈이 아직 돌아오지 않았어요"
+        ],
+        "keywords": [
+          "환불",
+          "환불금",
+          "환불 진행",
+          "입금"
+        ]
+      },
+      "vi": {
+        "question": "Làm sao để xem tiến độ hoàn tiền?",
+        "answer": "Mở lịch sử hoàn tiền của đơn tương ứng trong Đơn hàng của tôi. Tiền thường được hoàn trong ba đến bảy ngày làm việc sau khi duyệt, tùy phương thức thanh toán ban đầu.",
+        "alternateQuestions": [
+          "Khi nào tôi nhận lại tiền?",
+          "Tiền hoàn vẫn chưa về tài khoản"
+        ],
+        "keywords": [
+          "hoàn tiền",
+          "trả lại tiền",
+          "tiến độ hoàn tiền",
+          "nhận tiền"
+        ]
+      }
+    }
+  },
+  {
+    "id": "returns.process",
+    "category": "returns",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "如何申請退貨？",
+        "answer": "收到商品七天內，可在「我的訂單」選擇「申請退貨」並填寫原因。請保留商品、配件與包裝，待客服確認後依指示寄回。",
+        "alternateQuestions": [
+          "商品不合適想退回",
+          "退貨要怎麼寄回商品"
+        ],
+        "keywords": [
+          "退貨",
+          "申請退貨",
+          "寄回",
+          "包裝"
+        ]
+      },
+      "en": {
+        "question": "How do I return an item?",
+        "answer": "Select Request return in My orders within seven days of receiving your item and provide a reason. Keep the item, accessories, and packaging, then follow the return instructions after support confirms your request.",
+        "alternateQuestions": [
+          "I want to send a product back",
+          "How do I request a return?"
+        ],
+        "keywords": [
+          "return item",
+          "request return",
+          "send back",
+          "packaging"
+        ]
+      },
+      "ko": {
+        "question": "반품은 어떻게 신청하나요?",
+        "answer": "상품 수령 후 7일 이내에 내 주문에서 반품 신청을 선택하고 사유를 입력하세요. 상품과 구성품, 포장을 보관하고 고객센터 확인 후 안내에 따라 보내 주세요.",
+        "alternateQuestions": [
+          "상품을 돌려보내고 싶어요",
+          "반품 택배는 어떻게 보내나요?"
+        ],
+        "keywords": [
+          "반품",
+          "반품 신청",
+          "반송",
+          "포장"
+        ]
+      },
+      "vi": {
+        "question": "Làm sao để yêu cầu trả hàng?",
+        "answer": "Trong vòng bảy ngày sau khi nhận hàng, chọn Yêu cầu trả hàng trong Đơn hàng của tôi và nhập lý do. Giữ sản phẩm, phụ kiện và bao bì, rồi gửi lại theo hướng dẫn sau khi hỗ trợ xác nhận.",
+        "alternateQuestions": [
+          "Tôi muốn gửi trả sản phẩm",
+          "Quy trình trả lại món hàng thế nào?"
+        ],
+        "keywords": [
+          "trả hàng",
+          "yêu cầu trả hàng",
+          "gửi lại",
+          "bao bì"
+        ]
+      }
+    }
+  },
+  {
+    "id": "orders.track",
+    "category": "orders",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "如何查詢訂單狀態？",
+        "answer": "登入後開啟「我的訂單」，即可查看處理、出貨與配送狀態。已出貨的訂單會附上物流追蹤連結。",
+        "alternateQuestions": [
+          "我的包裹到哪裡了",
+          "如何查看購買紀錄"
+        ],
+        "keywords": [
+          "訂單查詢",
+          "訂單狀態",
+          "物流追蹤",
+          "包裹"
+        ]
+      },
+      "en": {
+        "question": "How do I track my order?",
+        "answer": "Sign in and open My orders to view processing, shipping, and delivery status. Shipped orders include a tracking link from the delivery service.",
+        "alternateQuestions": [
+          "Where is my parcel?",
+          "How can I view my purchase history?"
+        ],
+        "keywords": [
+          "order tracking",
+          "order status",
+          "parcel",
+          "tracking link"
+        ]
+      },
+      "ko": {
+        "question": "주문 상태는 어떻게 조회하나요?",
+        "answer": "로그인 후 내 주문에서 처리, 출고와 배송 상태를 확인할 수 있습니다. 출고된 주문에는 배송 조회 링크가 표시됩니다.",
+        "alternateQuestions": [
+          "제 택배가 어디쯤 왔나요?",
+          "구매 내역은 어디서 보나요?",
+          "제 주문 택배가 어디에 있는지 확인하고 싶어요"
+        ],
+        "keywords": [
+          "주문 조회",
+          "주문 상태",
+          "배송 조회",
+          "택배"
+        ]
+      },
+      "vi": {
+        "question": "Làm sao để theo dõi đơn hàng?",
+        "answer": "Đăng nhập và mở Đơn hàng của tôi để xem tình trạng xử lý, gửi hàng và giao hàng. Đơn đã gửi sẽ có liên kết theo dõi của đơn vị vận chuyển.",
+        "alternateQuestions": [
+          "Kiện hàng của tôi đang ở đâu?",
+          "Xem lịch sử mua hàng ở đâu?"
+        ],
+        "keywords": [
+          "theo dõi đơn hàng",
+          "tình trạng đơn",
+          "kiện hàng",
+          "liên kết theo dõi"
+        ]
+      }
+    }
+  },
+  {
+    "id": "orders.cancel",
+    "category": "orders",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "如何取消訂單？",
+        "answer": "尚未出貨的訂單可在「我的訂單」選擇「取消訂單」。若已出貨，請收到商品後依退貨流程申請處理。",
+        "alternateQuestions": [
+          "不想買了可以取消嗎",
+          "訂單還沒出貨想撤銷"
+        ],
+        "keywords": [
+          "取消訂單",
+          "撤銷",
+          "尚未出貨",
+          "取消購買"
+        ]
+      },
+      "en": {
+        "question": "How do I cancel an order?",
+        "answer": "Select Cancel order in My orders if it has not shipped yet. If it has already shipped, follow the return process after receiving the item.",
+        "alternateQuestions": [
+          "Can I cancel before shipping?",
+          "I changed my mind about a purchase"
+        ],
+        "keywords": [
+          "cancel order",
+          "cancellation",
+          "not shipped",
+          "cancel purchase"
+        ]
+      },
+      "ko": {
+        "question": "주문을 취소하려면 어떻게 하나요?",
+        "answer": "아직 출고되지 않았다면 내 주문에서 주문 취소를 선택하세요. 이미 출고되었다면 상품을 받은 후 반품 절차를 이용해 주세요.",
+        "alternateQuestions": [
+          "아직 발송 전인데 취소할 수 있나요?",
+          "구매를 철회하고 싶어요"
+        ],
+        "keywords": [
+          "주문 취소",
+          "취소",
+          "출고 전",
+          "구매 철회"
+        ]
+      },
+      "vi": {
+        "question": "Làm sao để hủy đơn hàng?",
+        "answer": "Chọn Hủy đơn trong Đơn hàng của tôi nếu đơn chưa được gửi đi. Nếu đã gửi, hãy nhận hàng rồi làm theo quy trình trả hàng.",
+        "alternateQuestions": [
+          "Tôi đổi ý không muốn mua nữa",
+          "Đơn chưa gửi có hủy được không?"
+        ],
+        "keywords": [
+          "hủy đơn",
+          "hủy mua",
+          "chưa gửi",
+          "hủy đơn hàng"
+        ]
+      }
+    }
+  },
+  {
+    "id": "shipping.time",
+    "category": "shipping",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "商品多久會送達？",
+        "answer": "一般商品付款確認後一到兩個工作天出貨，出貨後約二到四個工作天送達。預購或偏遠地區請以商品頁與物流通知為準。",
+        "alternateQuestions": [
+          "下單後幾天收到貨",
+          "配送大約需要多久"
+        ],
+        "keywords": [
+          "運送時間",
+          "送達",
+          "工作天",
+          "配送"
+        ]
+      },
+      "en": {
+        "question": "How long does delivery take?",
+        "answer": "Standard items ship within one to two business days after payment confirmation and usually arrive two to four business days after dispatch. For preorders or remote areas, check the product page and delivery updates.",
+        "alternateQuestions": [
+          "When will my items arrive?",
+          "How many days does shipping take?"
+        ],
+        "keywords": [
+          "delivery time",
+          "arrival",
+          "business days",
+          "dispatch"
+        ]
+      },
+      "ko": {
+        "question": "배송은 얼마나 걸리나요?",
+        "answer": "일반 상품은 결제 확인 후 영업일 기준 1~2일 이내 출고되며 출고 후 2~4일 정도 걸립니다. 예약 상품이나 도서산간 지역은 상품 페이지와 배송 안내를 확인하세요.",
+        "alternateQuestions": [
+          "주문하면 며칠 뒤에 받나요?",
+          "상품 도착까지 시간이 얼마나 필요한가요?"
+        ],
+        "keywords": [
+          "배송 기간",
+          "도착",
+          "영업일",
+          "출고"
+        ]
+      },
+      "vi": {
+        "question": "Giao hàng mất bao lâu?",
+        "answer": "Hàng thông thường được gửi trong một đến hai ngày làm việc sau khi xác nhận thanh toán và đến nơi sau hai đến bốn ngày làm việc kể từ lúc gửi. Với hàng đặt trước hoặc vùng xa, hãy xem trang sản phẩm và thông báo vận chuyển.",
+        "alternateQuestions": [
+          "Bao nhiêu ngày thì tôi nhận được hàng?",
+          "Thời gian vận chuyển dự kiến là bao lâu?"
+        ],
+        "keywords": [
+          "thời gian giao hàng",
+          "nhận hàng",
+          "ngày làm việc",
+          "gửi hàng"
+        ]
+      }
+    }
+  },
+  {
+    "id": "shipping.fees",
+    "category": "shipping",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "運費如何計算？",
+        "answer": "一般配送每筆訂單運費為六十元，商品金額滿一千元免運。特殊尺寸或偏遠地區的額外費用會在結帳前列出。",
+        "alternateQuestions": [
+          "買多少才有免運",
+          "寄送費用是多少"
+        ],
+        "keywords": [
+          "運費",
+          "免運",
+          "配送費",
+          "滿額"
+        ]
+      },
+      "en": {
+        "question": "How much does shipping cost?",
+        "answer": "Standard shipping costs 60 credits per order and is free when the merchandise total reaches 1,000 credits. Any surcharge for oversized items or remote areas is shown before checkout.",
+        "alternateQuestions": [
+          "What is the free shipping threshold?",
+          "How much is the delivery fee?"
+        ],
+        "keywords": [
+          "shipping fee",
+          "free shipping",
+          "delivery cost",
+          "minimum spend"
+        ]
+      },
+      "ko": {
+        "question": "배송비는 얼마인가요?",
+        "answer": "일반 배송비는 주문당 60크레딧이며 상품 금액이 1,000크레딧 이상이면 무료입니다. 대형 상품이나 도서산간 추가 요금은 결제 전에 표시됩니다.",
+        "alternateQuestions": [
+          "얼마 이상 사야 무료 배송인가요?",
+          "택배 요금이 궁금해요"
+        ],
+        "keywords": [
+          "배송비",
+          "무료 배송",
+          "추가 요금",
+          "구매 금액"
+        ]
+      },
+      "vi": {
+        "question": "Phí vận chuyển được tính thế nào?",
+        "answer": "Phí giao hàng thường là 60 tín dụng mỗi đơn và được miễn khi tổng tiền sản phẩm đạt 1.000 tín dụng. Phụ phí cho hàng cồng kềnh hoặc vùng xa được hiển thị trước khi thanh toán.",
+        "alternateQuestions": [
+          "Mua bao nhiêu thì được miễn phí giao hàng?",
+          "Tiền ship là bao nhiêu?"
+        ],
+        "keywords": [
+          "phí vận chuyển",
+          "miễn phí giao hàng",
+          "tiền ship",
+          "mức tối thiểu"
+        ]
+      }
+    }
+  },
+  {
+    "id": "billing.invoice",
+    "category": "billing",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "如何取得或修改發票？",
+        "answer": "電子發票會在出貨後寄到訂單電子郵件，也可從訂單明細下載。若需修改統一編號或抬頭，請在出貨前聯絡客服。",
+        "alternateQuestions": [
+          "發票寄到哪裡",
+          "公司統編填錯怎麼辦"
+        ],
+        "keywords": [
+          "發票",
+          "電子發票",
+          "統一編號",
+          "抬頭"
+        ]
+      },
+      "en": {
+        "question": "How do I get or correct an invoice?",
+        "answer": "An electronic invoice is emailed after dispatch and can also be downloaded from the order details. Contact support before dispatch if you need to correct the company name or tax number.",
+        "alternateQuestions": [
+          "Where can I download my invoice?",
+          "I entered the wrong tax number"
+        ],
+        "keywords": [
+          "invoice",
+          "electronic invoice",
+          "tax number",
+          "company name"
+        ]
+      },
+      "ko": {
+        "question": "영수증은 어떻게 받거나 수정하나요?",
+        "answer": "전자 영수증은 출고 후 주문 이메일로 발송되며 주문 상세에서도 내려받을 수 있습니다. 회사명이나 사업자 번호 수정이 필요하면 출고 전에 고객센터로 연락하세요.",
+        "alternateQuestions": [
+          "전자 영수증은 어디서 다운로드하나요?",
+          "사업자 번호를 잘못 입력했어요"
+        ],
+        "keywords": [
+          "영수증",
+          "전자 영수증",
+          "사업자 번호",
+          "회사명"
+        ]
+      },
+      "vi": {
+        "question": "Làm sao để lấy hoặc sửa hóa đơn?",
+        "answer": "Hóa đơn điện tử được gửi đến email của đơn hàng sau khi gửi hàng và có thể tải từ chi tiết đơn. Hãy liên hệ hỗ trợ trước khi gửi hàng nếu cần sửa tên công ty hoặc mã số thuế.",
+        "alternateQuestions": [
+          "Tải hóa đơn ở đâu?",
+          "Tôi nhập sai mã số thuế"
+        ],
+        "keywords": [
+          "hóa đơn",
+          "hóa đơn điện tử",
+          "mã số thuế",
+          "tên công ty"
+        ]
+      }
+    }
+  },
+  {
+    "id": "membership.level",
+    "category": "membership",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "會員等級如何計算？",
+        "answer": "會員等級依最近十二個月已完成訂單的消費總額計算。登入「會員中心」可查看目前等級、升級門檻及專屬優惠。",
+        "alternateQuestions": [
+          "怎麼升級會員等級",
+          "在哪裡看會員級別"
+        ],
+        "keywords": [
+          "會員等級",
+          "升級",
+          "消費總額",
+          "會員中心"
+        ]
+      },
+      "en": {
+        "question": "How are membership tiers calculated?",
+        "answer": "Your membership tier depends on the total value of completed orders over the past twelve months. Visit Member center to see your current tier, upgrade threshold, and benefits.",
+        "alternateQuestions": [
+          "How do I upgrade my membership level?",
+          "Where can I see my member tier?"
+        ],
+        "keywords": [
+          "membership tier",
+          "upgrade",
+          "spending total",
+          "member center"
+        ]
+      },
+      "ko": {
+        "question": "회원 등급은 어떻게 정해지나요?",
+        "answer": "최근 12개월 동안 완료된 주문의 총 구매 금액으로 회원 등급을 계산합니다. 회원 센터에서 현재 등급과 승급 기준, 혜택을 확인하세요.",
+        "alternateQuestions": [
+          "회원 등급을 올리려면 어떻게 하나요?",
+          "제 멤버십 등급은 어디서 보나요?"
+        ],
+        "keywords": [
+          "회원 등급",
+          "승급",
+          "구매 금액",
+          "회원 센터"
+        ]
+      },
+      "vi": {
+        "question": "Hạng thành viên được tính thế nào?",
+        "answer": "Hạng thành viên dựa trên tổng giá trị các đơn đã hoàn tất trong mười hai tháng gần nhất. Vào Trung tâm thành viên để xem hạng hiện tại, điều kiện nâng hạng và ưu đãi.",
+        "alternateQuestions": [
+          "Làm sao để nâng hạng thành viên?",
+          "Xem cấp độ hội viên ở đâu?"
+        ],
+        "keywords": [
+          "hạng thành viên",
+          "nâng hạng",
+          "tổng chi tiêu",
+          "trung tâm thành viên"
+        ]
+      }
+    }
+  },
+  {
+    "id": "rewards.expiry",
+    "category": "rewards",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "會員點數何時到期？",
+        "answer": "購物取得的點數自入帳日起有效十二個月，活動贈點以活動頁期限為準。可在「點數明細」查看各筆到期日，系統會優先使用較早到期的點數。",
+        "alternateQuestions": [
+          "積分會不會過期",
+          "怎麼查看點數有效期限"
+        ],
+        "keywords": [
+          "點數",
+          "積分",
+          "到期",
+          "有效期限"
+        ]
+      },
+      "en": {
+        "question": "When do reward points expire?",
+        "answer": "Points earned from purchases are valid for twelve months from the date they are credited; promotional points follow the campaign terms. Check Points history for expiry dates, and points expiring soonest will be used first.",
+        "alternateQuestions": [
+          "Do my loyalty points expire?",
+          "Where can I check point validity?"
+        ],
+        "keywords": [
+          "reward points",
+          "loyalty points",
+          "expiry",
+          "validity"
+        ]
+      },
+      "ko": {
+        "question": "적립 포인트는 언제 만료되나요?",
+        "answer": "구매 포인트는 적립일부터 12개월간 유효하며 이벤트 포인트는 행사 안내의 기간을 따릅니다. 포인트 내역에서 만료일을 확인할 수 있고 먼저 만료되는 포인트부터 사용됩니다.",
+        "alternateQuestions": [
+          "적립금에도 유효기간이 있나요?",
+          "포인트가 언제 소멸하는지 알고 싶어요"
+        ],
+        "keywords": [
+          "포인트",
+          "적립금",
+          "만료",
+          "유효기간"
+        ]
+      },
+      "vi": {
+        "question": "Điểm thưởng hết hạn khi nào?",
+        "answer": "Điểm từ mua sắm có hiệu lực mười hai tháng từ ngày cộng, còn điểm khuyến mãi theo thời hạn của chương trình. Xem ngày hết hạn trong Lịch sử điểm; hệ thống dùng điểm sắp hết hạn trước.",
+        "alternateQuestions": [
+          "Điểm tích lũy có bị hết hạn không?",
+          "Kiểm tra thời hạn điểm ở đâu?"
+        ],
+        "keywords": [
+          "điểm thưởng",
+          "điểm tích lũy",
+          "hết hạn",
+          "thời hạn"
+        ]
+      }
+    }
+  },
+  {
+    "id": "offers.coupon",
+    "category": "offers",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "如何使用優惠券？",
+        "answer": "在結帳頁輸入優惠碼，或從「我的優惠券」選擇符合條件的券。請確認有效期限、最低消費與適用商品，每筆訂單限用一張。",
+        "alternateQuestions": [
+          "折扣碼要在哪裡輸入",
+          "優惠券為什麼不能套用"
+        ],
+        "keywords": [
+          "優惠券",
+          "折扣碼",
+          "優惠碼",
+          "最低消費"
+        ]
+      },
+      "en": {
+        "question": "How do I use a coupon?",
+        "answer": "Enter a discount code at checkout or select an eligible coupon from My coupons. Check its expiry date, minimum spend, and eligible products; only one coupon can be used per order.",
+        "alternateQuestions": [
+          "Where do I enter a promo code?",
+          "Why is my discount coupon not applying?"
+        ],
+        "keywords": [
+          "coupon",
+          "discount code",
+          "promo code",
+          "minimum spend"
+        ]
+      },
+      "ko": {
+        "question": "쿠폰은 어떻게 사용하나요?",
+        "answer": "결제 화면에 할인 코드를 입력하거나 내 쿠폰에서 조건에 맞는 쿠폰을 선택하세요. 유효기간과 최소 구매 금액, 적용 상품을 확인하고 주문당 한 장만 사용하세요.",
+        "alternateQuestions": [
+          "할인 코드를 어디에 넣나요?",
+          "쿠폰이 적용되지 않는 이유가 뭔가요?"
+        ],
+        "keywords": [
+          "쿠폰",
+          "할인 코드",
+          "프로모션 코드",
+          "최소 구매"
+        ]
+      },
+      "vi": {
+        "question": "Làm sao để sử dụng phiếu giảm giá?",
+        "answer": "Nhập mã giảm giá tại trang thanh toán hoặc chọn phiếu đủ điều kiện trong Phiếu của tôi. Kiểm tra hạn dùng, giá trị đơn tối thiểu và sản phẩm áp dụng; mỗi đơn chỉ dùng một phiếu.",
+        "alternateQuestions": [
+          "Nhập mã ưu đãi ở chỗ nào?",
+          "Vì sao không áp dụng được phiếu giảm giá?"
+        ],
+        "keywords": [
+          "phiếu giảm giá",
+          "mã giảm giá",
+          "mã ưu đãi",
+          "đơn tối thiểu"
+        ]
+      }
+    }
+  },
+  {
+    "id": "account.deactivate",
+    "category": "account",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "如何停用帳號？",
+        "answer": "到「帳戶設定」選擇「停用帳號」，完成確認後將無法繼續登入購物。若仍有未完成的訂單，請先聯絡客服處理，再申請停用。",
+        "alternateQuestions": [
+          "不想再使用會員帳號",
+          "帳戶要怎麼關閉"
+        ],
+        "keywords": [
+          "停用帳號",
+          "關閉帳戶",
+          "停用",
+          "會員帳號"
+        ]
+      },
+      "en": {
+        "question": "How do I deactivate my account?",
+        "answer": "Select Deactivate account in Account settings and confirm; you will no longer be able to sign in or shop. Contact support to resolve any unfinished orders before requesting deactivation.",
+        "alternateQuestions": [
+          "I no longer want to use my account",
+          "How can I close my member account?"
+        ],
+        "keywords": [
+          "deactivate account",
+          "close account",
+          "deactivation",
+          "member account"
+        ]
+      },
+      "ko": {
+        "question": "계정을 비활성화하려면 어떻게 하나요?",
+        "answer": "계정 설정에서 계정 비활성화를 선택하고 확인하면 더 이상 로그인하거나 쇼핑할 수 없습니다. 미완료 주문이 있으면 먼저 고객센터에 처리 방법을 문의하세요.",
+        "alternateQuestions": [
+          "회원 계정을 더 이상 쓰고 싶지 않아요",
+          "계정을 닫는 방법을 알려 주세요"
+        ],
+        "keywords": [
+          "계정 비활성화",
+          "계정 닫기",
+          "사용 중지",
+          "회원 계정"
+        ]
+      },
+      "vi": {
+        "question": "Làm sao để vô hiệu hóa tài khoản?",
+        "answer": "Chọn Vô hiệu hóa tài khoản trong Cài đặt tài khoản và xác nhận; sau đó bạn không thể đăng nhập mua sắm. Nếu còn đơn chưa hoàn tất, hãy liên hệ hỗ trợ xử lý trước khi gửi yêu cầu.",
+        "alternateQuestions": [
+          "Tôi không muốn dùng tài khoản nữa",
+          "Cách đóng tài khoản thành viên là gì?"
+        ],
+        "keywords": [
+          "vô hiệu hóa tài khoản",
+          "đóng tài khoản",
+          "ngừng sử dụng",
+          "tài khoản thành viên"
+        ]
+      }
+    }
+  },
+  {
+    "id": "support.hours",
+    "category": "support",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "客服服務時間是什麼時候？",
+        "answer": "文字客服週一至週五上午九點到下午六點服務，國定假日休息。非服務時間可留言並附上訂單編號，客服將於下一個工作天回覆。",
+        "alternateQuestions": [
+          "現在有人可以協助嗎",
+          "客服週末有上班嗎"
+        ],
+        "keywords": [
+          "客服時間",
+          "營業時間",
+          "聯絡客服",
+          "工作天"
+        ]
+      },
+      "en": {
+        "question": "When is customer support available?",
+        "answer": "Text support is available Monday to Friday from 9 a.m. to 6 p.m., excluding public holidays. Outside these hours, leave a message with your order number for a reply on the next business day.",
+        "alternateQuestions": [
+          "Is support open on weekends?",
+          "What are your support hours?"
+        ],
+        "keywords": [
+          "support hours",
+          "opening hours",
+          "contact support",
+          "business day"
+        ]
+      },
+      "ko": {
+        "question": "고객센터 운영 시간은 언제인가요?",
+        "answer": "채팅 상담은 공휴일을 제외한 월요일부터 금요일 오전 9시부터 오후 6시까지 운영합니다. 운영 시간 외에는 주문 번호와 함께 메시지를 남기면 다음 영업일에 답변드립니다.",
+        "alternateQuestions": [
+          "주말에도 상담이 가능한가요?",
+          "지금 상담원과 연락할 수 있나요?"
+        ],
+        "keywords": [
+          "고객센터 시간",
+          "운영 시간",
+          "상담원",
+          "영업일"
+        ]
+      },
+      "vi": {
+        "question": "Bộ phận hỗ trợ làm việc lúc nào?",
+        "answer": "Hỗ trợ qua tin nhắn làm việc từ 9 giờ đến 18 giờ, thứ Hai đến thứ Sáu, trừ ngày lễ. Ngoài giờ, hãy để lại tin nhắn kèm mã đơn để được trả lời vào ngày làm việc tiếp theo.",
+        "alternateQuestions": [
+          "Cuối tuần có nhân viên hỗ trợ không?",
+          "Bây giờ có thể gặp tư vấn viên không?"
+        ],
+        "keywords": [
+          "giờ hỗ trợ",
+          "giờ làm việc",
+          "liên hệ hỗ trợ",
+          "ngày làm việc"
+        ]
+      }
+    }
+  },
+  {
+    "id": "privacy.delete-data",
+    "category": "privacy",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "如何申請刪除個人資料？",
+        "answer": "請透過客服提出個人資料刪除申請，並依指示完成身分核對。我們會在三十天內回覆處理結果，依法需保留的交易紀錄將另行告知。",
+        "alternateQuestions": [
+          "我要移除個資",
+          "隱私資料能刪掉嗎"
+        ],
+        "keywords": [
+          "個人資料",
+          "資料刪除",
+          "隱私",
+          "刪除申請"
+        ]
+      },
+      "en": {
+        "question": "How do I request deletion of my personal data?",
+        "answer": "Contact support to request personal data deletion and complete identity verification as instructed. We will respond within thirty days and explain which transaction records must be retained by law.",
+        "alternateQuestions": [
+          "Can you remove my personal information?",
+          "How can I delete my privacy data?"
+        ],
+        "keywords": [
+          "personal data",
+          "data deletion",
+          "privacy",
+          "removal request"
+        ]
+      },
+      "ko": {
+        "question": "개인정보 삭제는 어떻게 신청하나요?",
+        "answer": "고객센터에 개인정보 삭제를 요청하고 안내에 따라 본인 확인을 완료하세요. 30일 이내에 처리 결과를 안내하며 법에 따라 보관해야 하는 거래 기록은 별도로 알려드립니다.",
+        "alternateQuestions": [
+          "제 개인정보를 지워 주세요",
+          "보관된 사생활 데이터를 삭제할 수 있나요?"
+        ],
+        "keywords": [
+          "개인정보",
+          "정보 삭제",
+          "사생활",
+          "삭제 요청"
+        ]
+      },
+      "vi": {
+        "question": "Làm sao để yêu cầu xóa dữ liệu cá nhân?",
+        "answer": "Liên hệ hỗ trợ để yêu cầu xóa dữ liệu cá nhân và hoàn tất xác minh danh tính theo hướng dẫn. Chúng tôi phản hồi trong ba mươi ngày và thông báo riêng về những hồ sơ giao dịch phải giữ theo luật.",
+        "alternateQuestions": [
+          "Tôi muốn gỡ thông tin cá nhân",
+          "Có thể xóa dữ liệu riêng tư không?"
+        ],
+        "keywords": [
+          "dữ liệu cá nhân",
+          "xóa dữ liệu",
+          "quyền riêng tư",
+          "yêu cầu xóa"
+        ]
+      }
+    }
+  },
+  {
+    "id": "app.login",
+    "category": "app",
+    "enabled": true,
+    "translations": {
+      "zh-TW": {
+        "question": "App 無法登入怎麼辦？",
+        "answer": "請先更新 App，確認網路連線後重新啟動，再使用相同帳號登入。若網頁版能登入而 App 仍失敗，請聯絡客服並提供 App 版本與錯誤畫面，勿提供密碼。",
+        "alternateQuestions": [
+          "手機應用程式登入一直失敗",
+          "網頁能登入但 App 不行"
+        ],
+        "keywords": [
+          "App",
+          "應用程式",
+          "無法登入",
+          "版本更新"
+        ]
+      },
+      "en": {
+        "question": "What should I do if I cannot sign in to the app?",
+        "answer": "Update the app, check your internet connection, and restart it before signing in with the same account. If the website works but the app still fails, send support your app version and an error screenshot without sharing your password.",
+        "alternateQuestions": [
+          "The mobile app login keeps failing",
+          "I can sign in on the website but not the app"
+        ],
+        "keywords": [
+          "app",
+          "mobile application",
+          "cannot log in",
+          "version update"
+        ]
+      },
+      "ko": {
+        "question": "앱에 로그인할 수 없으면 어떻게 하나요?",
+        "answer": "앱을 업데이트하고 인터넷 연결을 확인한 뒤 앱을 다시 시작해 같은 계정으로 로그인하세요. 웹사이트는 되지만 앱만 실패한다면 비밀번호 대신 앱 버전과 오류 화면을 고객센터에 보내 주세요.",
+        "alternateQuestions": [
+          "모바일 앱 로그인이 계속 실패해요",
+          "웹에서는 되는데 앱에서는 접속이 안 돼요"
+        ],
+        "keywords": [
+          "앱",
+          "모바일 앱",
+          "로그인 불가",
+          "업데이트"
+        ]
+      },
+      "vi": {
+        "question": "Tôi không đăng nhập được ứng dụng thì làm sao?",
+        "answer": "Cập nhật ứng dụng, kiểm tra kết nối mạng rồi khởi động lại trước khi đăng nhập bằng tài khoản cũ. Nếu trang web vẫn vào được nhưng ứng dụng lỗi, hãy gửi phiên bản ứng dụng và ảnh lỗi cho hỗ trợ, không gửi mật khẩu.",
+        "alternateQuestions": [
+          "Đăng nhập ứng dụng di động cứ thất bại",
+          "Vào web được nhưng không vào app được"
+        ],
+        "keywords": [
+          "ứng dụng",
+          "app",
+          "không đăng nhập",
+          "cập nhật phiên bản"
+        ]
+      }
+    }
+  }
+]

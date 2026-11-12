@@ -1,0 +1,410 @@
+{
+  "zh-TW": [
+    [
+      "退款",
+      "退錢",
+      "退費"
+    ],
+    [
+      "退貨",
+      "退回商品",
+      "寄回商品"
+    ],
+    [
+      "密碼",
+      "密碼重設",
+      "找回密碼"
+    ],
+    [
+      "註冊",
+      "加入會員",
+      "建立帳號"
+    ],
+    [
+      "手機號碼",
+      "電話號碼",
+      "手機號"
+    ],
+    [
+      "雙重驗證",
+      "兩步驟驗證",
+      "二階段驗證"
+    ],
+    [
+      "付款",
+      "付錢",
+      "支付"
+    ],
+    [
+      "訂單查詢",
+      "訂單狀態",
+      "查包裹"
+    ],
+    [
+      "取消訂單",
+      "撤銷訂單",
+      "取消購買"
+    ],
+    [
+      "運費",
+      "配送費",
+      "寄送費"
+    ],
+    [
+      "運送時間",
+      "配送時間",
+      "多久送到"
+    ],
+    [
+      "發票",
+      "電子發票",
+      "購買憑證"
+    ],
+    [
+      "會員等級",
+      "會員級別",
+      "會員階級"
+    ],
+    [
+      "點數",
+      "積分",
+      "購物點"
+    ],
+    [
+      "優惠券",
+      "折扣碼",
+      "優惠碼"
+    ],
+    [
+      "停用帳號",
+      "關閉帳戶",
+      "停用會員"
+    ],
+    [
+      "客服時間",
+      "客服上班",
+      "服務時間"
+    ],
+    [
+      "個人資料",
+      "個資",
+      "隱私資料"
+    ],
+    [
+      "App",
+      "應用程式",
+      "手機程式"
+    ],
+    [
+      "到期",
+      "過期",
+      "有效期限"
+    ]
+  ],
+  "en": [
+    [
+      "refund",
+      "money back",
+      "reimburse"
+    ],
+    [
+      "return",
+      "send back",
+      "return item"
+    ],
+    [
+      "password",
+      "passcode",
+      "password reset"
+    ],
+    [
+      "register",
+      "sign up",
+      "create account"
+    ],
+    [
+      "phone number",
+      "mobile number",
+      "contact number"
+    ],
+    [
+      "two factor",
+      "two step",
+      "2fa"
+    ],
+    [
+      "payment",
+      "pay",
+      "checkout"
+    ],
+    [
+      "order tracking",
+      "track parcel",
+      "order status"
+    ],
+    [
+      "cancel order",
+      "cancel purchase",
+      "cancellation"
+    ],
+    [
+      "shipping fee",
+      "delivery cost",
+      "postage"
+    ],
+    [
+      "delivery time",
+      "shipping time",
+      "arrival"
+    ],
+    [
+      "invoice",
+      "receipt",
+      "billing document"
+    ],
+    [
+      "membership tier",
+      "member level",
+      "membership level"
+    ],
+    [
+      "reward points",
+      "loyalty points",
+      "points"
+    ],
+    [
+      "coupon",
+      "discount code",
+      "promo code"
+    ],
+    [
+      "deactivate account",
+      "close account",
+      "disable account"
+    ],
+    [
+      "support hours",
+      "opening hours",
+      "service hours"
+    ],
+    [
+      "personal data",
+      "personal information",
+      "privacy data"
+    ],
+    [
+      "app",
+      "mobile application",
+      "phone app"
+    ],
+    [
+      "expiry",
+      "expiration",
+      "validity"
+    ]
+  ],
+  "ko": [
+    [
+      "환불",
+      "돈 돌려받기",
+      "환불금"
+    ],
+    [
+      "반품",
+      "상품 반송",
+      "돌려보내기"
+    ],
+    [
+      "비밀번호",
+      "암호",
+      "비번"
+    ],
+    [
+      "회원가입",
+      "계정 생성",
+      "가입"
+    ],
+    [
+      "휴대폰 번호",
+      "전화번호",
+      "연락처"
+    ],
+    [
+      "2단계 인증",
+      "이중 인증",
+      "두 단계 인증"
+    ],
+    [
+      "결제",
+      "지불",
+      "대금"
+    ],
+    [
+      "주문 조회",
+      "배송 조회",
+      "택배 조회"
+    ],
+    [
+      "주문 취소",
+      "구매 철회",
+      "취소"
+    ],
+    [
+      "배송비",
+      "택배 요금",
+      "운송비"
+    ],
+    [
+      "배송 기간",
+      "도착 시간",
+      "배송 시간"
+    ],
+    [
+      "영수증",
+      "전자 영수증",
+      "구매 증빙"
+    ],
+    [
+      "회원 등급",
+      "멤버십 등급",
+      "회원 레벨"
+    ],
+    [
+      "포인트",
+      "적립금",
+      "적립 포인트"
+    ],
+    [
+      "쿠폰",
+      "할인 코드",
+      "프로모션 코드"
+    ],
+    [
+      "계정 비활성화",
+      "계정 닫기",
+      "계정 중지"
+    ],
+    [
+      "고객센터 시간",
+      "운영 시간",
+      "상담 시간"
+    ],
+    [
+      "개인정보",
+      "개인 정보",
+      "사생활 데이터"
+    ],
+    [
+      "앱",
+      "모바일 앱",
+      "어플"
+    ],
+    [
+      "만료",
+      "소멸",
+      "유효기간"
+    ]
+  ],
+  "vi": [
+    [
+      "hoàn tiền",
+      "trả lại tiền",
+      "tiền hoàn"
+    ],
+    [
+      "trả hàng",
+      "gửi trả",
+      "hoàn trả sản phẩm"
+    ],
+    [
+      "mật khẩu",
+      "mật mã",
+      "đặt lại mật khẩu"
+    ],
+    [
+      "đăng ký",
+      "tạo tài khoản",
+      "gia nhập thành viên"
+    ],
+    [
+      "số điện thoại",
+      "số di động",
+      "số liên lạc"
+    ],
+    [
+      "xác thực hai bước",
+      "bảo mật hai lớp",
+      "xác minh hai bước"
+    ],
+    [
+      "thanh toán",
+      "trả tiền",
+      "chi trả"
+    ],
+    [
+      "theo dõi đơn hàng",
+      "tình trạng đơn",
+      "tra cứu kiện hàng"
+    ],
+    [
+      "hủy đơn",
+      "hủy mua",
+      "hủy đơn hàng"
+    ],
+    [
+      "phí vận chuyển",
+      "tiền ship",
+      "phí giao hàng"
+    ],
+    [
+      "thời gian giao hàng",
+      "thời gian vận chuyển",
+      "bao lâu nhận hàng"
+    ],
+    [
+      "hóa đơn",
+      "hóa đơn điện tử",
+      "chứng từ mua hàng"
+    ],
+    [
+      "hạng thành viên",
+      "cấp độ hội viên",
+      "hạng hội viên"
+    ],
+    [
+      "điểm thưởng",
+      "điểm tích lũy",
+      "điểm"
+    ],
+    [
+      "phiếu giảm giá",
+      "mã giảm giá",
+      "mã ưu đãi"
+    ],
+    [
+      "vô hiệu hóa tài khoản",
+      "đóng tài khoản",
+      "ngừng tài khoản"
+    ],
+    [
+      "giờ hỗ trợ",
+      "giờ làm việc",
+      "thời gian tư vấn"
+    ],
+    [
+      "dữ liệu cá nhân",
+      "thông tin cá nhân",
+      "dữ liệu riêng tư"
+    ],
+    [
+      "ứng dụng",
+      "app",
+      "ứng dụng di động"
+    ],
+    [
+      "hết hạn",
+      "hạn dùng",
+      "thời hạn"
+    ]
+  ]
+}

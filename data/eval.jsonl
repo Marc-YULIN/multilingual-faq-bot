@@ -1,0 +1,88 @@
+{"question": "新客第一次買東西要先註冊嗎？", "locale": "zh-TW", "expectedFaqId": "account.register"}
+{"question": "忘了密碼啦，怎麼拿回帳號？", "locale": "zh-TW", "expectedFaqId": "account.reset-password"}
+{"question": "我換門號了，會員手機資料在哪更新？", "locale": "zh-TW", "expectedFaqId": "account.change-phone"}
+{"question": "想讓帳號更安全，兩階段驗證怎麼開？", "locale": "zh-TW", "expectedFaqId": "account.two-factor"}
+{"question": "你們接受信用卡以外的支付方式不？", "locale": "zh-TW", "expectedFaqId": "payment.methods"}
+{"question": "剛剛刷卡沒成功，接下來該怎辦？", "locale": "zh-TW", "expectedFaqId": "payment.failed"}
+{"question": "退錢申請通過好幾天了還沒收到欸", "locale": "zh-TW", "expectedFaqId": "refund.status"}
+{"question": "尺寸不對要退貨，第一步做啥？", "locale": "zh-TW", "expectedFaqId": "returns.process"}
+{"question": "幫我看看訂單現在送到哪了", "locale": "zh-TW", "expectedFaqId": "orders.track"}
+{"question": "還未寄出的訂單能不要了嗎？", "locale": "zh-TW", "expectedFaqId": "orders.cancel"}
+{"question": "今天下單大概幾天才送到我家？", "locale": "zh-TW", "expectedFaqId": "shipping.time"}
+{"question": "要湊到多少金額才不用付運費啊", "locale": "zh-TW", "expectedFaqId": "shipping.fees"}
+{"question": "發票的統編打錯一碼能改嗎？", "locale": "zh-TW", "expectedFaqId": "billing.invoice"}
+{"question": "會員要累積多少消費才能升等？", "locale": "zh-TW", "expectedFaqId": "membership.level"}
+{"question": "我的積分是不是放太久就失效了", "locale": "zh-TW", "expectedFaqId": "rewards.expiry"}
+{"question": "拿到的折扣碼在哪個地方填？", "locale": "zh-TW", "expectedFaqId": "offers.coupon"}
+{"question": "我想停用會員，以後不在這買了", "locale": "zh-TW", "expectedFaqId": "account.deactivate"}
+{"question": "禮拜天找得到客服人員嗎？", "locale": "zh-TW", "expectedFaqId": "support.hours"}
+{"question": "我想請你們刪掉我的個資資料", "locale": "zh-TW", "expectedFaqId": "privacy.delete-data"}
+{"question": "Ａｐｐ突然登不進去但網頁沒問題欸", "locale": "zh-TW", "expectedFaqId": "app.login"}
+{"question": "明天台北會下雨嗎？", "locale": "zh-TW", "expectedFaqId": null}
+{"question": "幫我寫一道番茄炒蛋的食譜", "locale": "zh-TW", "expectedFaqId": null}
+{"question": "Hey, where do new shoppers register?", "locale": "en", "expectedFaqId": "account.register"}
+{"question": "Forgot my pasword, can I reset it somehow?", "locale": "en", "expectedFaqId": "account.reset-password"}
+{"question": "Got a new mobile number, where can I change the old one?", "locale": "en", "expectedFaqId": "account.change-phone"}
+{"question": "Can you show me how to turn on two step account security?", "locale": "en", "expectedFaqId": "account.two-factor"}
+{"question": "Do you accept bank transfers as a payment option?", "locale": "en", "expectedFaqId": "payment.methods"}
+{"question": "My card was declined at checkout, what should I try next?", "locale": "en", "expectedFaqId": "payment.failed"}
+{"question": "Still waiting for my money back after approval", "locale": "en", "expectedFaqId": "refund.status"}
+{"question": "The size is wrong, how do I send the item back?", "locale": "en", "expectedFaqId": "returns.process"}
+{"question": "Any way to track where my package is right now?", "locale": "en", "expectedFaqId": "orders.track"}
+{"question": "Changed my mind, can I cancel an unshipped order?", "locale": "en", "expectedFaqId": "orders.cancel"}
+{"question": "Roughly how many days until delivery if I buy today?", "locale": "en", "expectedFaqId": "shipping.time"}
+{"question": "What purchase total gets me free shipping?", "locale": "en", "expectedFaqId": "shipping.fees"}
+{"question": "Oops, the tax number on my invoice is incorrect", "locale": "en", "expectedFaqId": "billing.invoice"}
+{"question": "How much do I need to spend to upgrade my member level?", "locale": "en", "expectedFaqId": "membership.level"}
+{"question": "Will unused loyalty points eventually expire?", "locale": "en", "expectedFaqId": "rewards.expiry"}
+{"question": "Where exactly do I type my promo code?", "locale": "en", "expectedFaqId": "offers.coupon"}
+{"question": "Please tell me how to disable my shopping account", "locale": "en", "expectedFaqId": "account.deactivate"}
+{"question": "Are support staff around on a Sunday?", "locale": "en", "expectedFaqId": "support.hours"}
+{"question": "I want all my personal information removed", "locale": "en", "expectedFaqId": "privacy.delete-data"}
+{"question": "The website works but the phone app wont let me log in", "locale": "en", "expectedFaqId": "app.login"}
+{"question": "What is the weather forecast for tomorrow?", "locale": "en", "expectedFaqId": null}
+{"question": "Teach me a recipe for tomato scrambled eggs", "locale": "en", "expectedFaqId": null}
+{"question": "처음 사 보는데 회원가입은 어디서 해요?", "locale": "ko", "expectedFaqId": "account.register"}
+{"question": "비번 까먹었는데 다시 만들 수 있어요?", "locale": "ko", "expectedFaqId": "account.reset-password"}
+{"question": "전화번호 바꿨는데 계정 연락처 수정하려면요?", "locale": "ko", "expectedFaqId": "account.change-phone"}
+{"question": "계정 보안용 이중 인증 켜는 법 좀 알려 주세요", "locale": "ko", "expectedFaqId": "account.two-factor"}
+{"question": "결제할 때 계좌이체도 되나요?", "locale": "ko", "expectedFaqId": "payment.methods"}
+{"question": "카드 결제가 안 됐어요 다시 시도해도 되나요?", "locale": "ko", "expectedFaqId": "payment.failed"}
+{"question": "승인된 환불금 아직 안 들어왔는데 며칠 기다려요?", "locale": "ko", "expectedFaqId": "refund.status"}
+{"question": "옷 크기가 안 맞아서 반품하고 싶은데요", "locale": "ko", "expectedFaqId": "returns.process"}
+{"question": "제 주문 택배가 지금 어디에 있는지 궁금해요", "locale": "ko", "expectedFaqId": "orders.track"}
+{"question": "발송 안 된 주문인데 구매 취소 가능해요?", "locale": "ko", "expectedFaqId": "orders.cancel"}
+{"question": "오늘 주문하면 배송 며칠 정도 걸릴까요?", "locale": "ko", "expectedFaqId": "shipping.time"}
+{"question": "무료 배송 받으려면 얼마나 사야 해요?", "locale": "ko", "expectedFaqId": "shipping.fees"}
+{"question": "영수증에 사업자 번호가 틀렸는데 고칠 수 있나요?", "locale": "ko", "expectedFaqId": "billing.invoice"}
+{"question": "멤버십 등급 높이려면 얼마나 구매해야 하나요?", "locale": "ko", "expectedFaqId": "membership.level"}
+{"question": "안 쓴 적립금 오래 두면 소멸하나요?", "locale": "ko", "expectedFaqId": "rewards.expiry"}
+{"question": "할인 코드 받았는데 입력하는 칸이 어디예요?", "locale": "ko", "expectedFaqId": "offers.coupon"}
+{"question": "이제 계정을 비활성화하고 싶어요", "locale": "ko", "expectedFaqId": "account.deactivate"}
+{"question": "일요일에도 고객센터 상담해요?", "locale": "ko", "expectedFaqId": "support.hours"}
+{"question": "제 개인정보 전부 삭제 요청하고 싶어요", "locale": "ko", "expectedFaqId": "privacy.delete-data"}
+{"question": "웹 로그인은 되는데 어플 접속만 자꾸 실패하네요", "locale": "ko", "expectedFaqId": "app.login"}
+{"question": "내일 서울 날씨는 어떨까요?", "locale": "ko", "expectedFaqId": null}
+{"question": "토마토 달걀 볶음 요리법을 알려 주세요", "locale": "ko", "expectedFaqId": null}
+{"question": "Mình là khách mới, đăng ký thành viên ở chỗ nào vậy?", "locale": "vi", "expectedFaqId": "account.register"}
+{"question": "Quên mất mật khâu rồi, lấy lại kiểu gì nhỉ?", "locale": "vi", "expectedFaqId": "account.reset-password"}
+{"question": "Mình đổi số di động, sửa số cũ trong tài khoản ở đâu?", "locale": "vi", "expectedFaqId": "account.change-phone"}
+{"question": "Muốn bật bảo mật hai lớp cho tài khoản thì làm thế nào?", "locale": "vi", "expectedFaqId": "account.two-factor"}
+{"question": "Ngoài thẻ ra cửa hàng có nhận chuyển khoản không?", "locale": "vi", "expectedFaqId": "payment.methods"}
+{"question": "Vừa trả tiền bằng thẻ bị lỗi, giờ thử lại được chứ?", "locale": "vi", "expectedFaqId": "payment.failed"}
+{"question": "Tiền hoàn đã duyệt mà mãi chưa thấy về, chờ mấy ngày vậy?", "locale": "vi", "expectedFaqId": "refund.status"}
+{"question": "Áo không vừa, mình cần làm gì để gửi trả?", "locale": "vi", "expectedFaqId": "returns.process"}
+{"question": "Mình muốn biết kiện hàng đang tới đâu rồi", "locale": "vi", "expectedFaqId": "orders.track"}
+{"question": "Đơn chưa gửi đi, mình đổi ý hủy mua được không?", "locale": "vi", "expectedFaqId": "orders.cancel"}
+{"question": "Đặt hôm nay thì khoảng bao nhiêu ngày sẽ giao tới?", "locale": "vi", "expectedFaqId": "shipping.time"}
+{"question": "Mua đủ bao nhiêu mới khỏi mất tiền ship nhỉ?", "locale": "vi", "expectedFaqId": "shipping.fees"}
+{"question": "Mã số thuế ghi sai trên hóa đơn, sửa lại được không?", "locale": "vi", "expectedFaqId": "billing.invoice"}
+{"question": "Cần chi tiêu bao nhiêu để nâng cấp hạng hội viên vậy?", "locale": "vi", "expectedFaqId": "membership.level"}
+{"question": "Điểm tích lũy để lâu có bị mất không?", "locale": "vi", "expectedFaqId": "rewards.expiry"}
+{"question": "Có mã ưu đãi rồi mà không biết nhập vào đâu", "locale": "vi", "expectedFaqId": "offers.coupon"}
+{"question": "Mình muốn đóng tài khoản mua sắm luôn", "locale": "vi", "expectedFaqId": "account.deactivate"}
+{"question": "Chủ nhật có người trực hỗ trợ không nhỉ?", "locale": "vi", "expectedFaqId": "support.hours"}
+{"question": "Nhờ xóa hết thông tin cá nhân của mình với", "locale": "vi", "expectedFaqId": "privacy.delete-data"}
+{"question": "Web vẫn vào bình thường nhưng app cứ lỗi đăng nhập", "locale": "vi", "expectedFaqId": "app.login"}
+{"question": "Dự báo thời tiết Hà Nội ngày mai thế nào?", "locale": "vi", "expectedFaqId": null}
+{"question": "Chỉ mình cách nấu món trứng xào cà chua", "locale": "vi", "expectedFaqId": null}
