@@ -1,6 +1,93 @@
-@FaqBot.Api_HostAddress = http://localhost:5146
+@host = http://localhost:5108
+@admin = dev-admin-key
 
-GET {{FaqBot.Api_HostAddress}}/weatherforecast/
-Accept: application/json
+### Chinese direct answer
+POST {{host}}/api/chat
+Content-Type: application/json
 
-###
+{"siteCode":"demo","message":"如何註冊 Acme Store 帳號？","locale":"zh-TW"}
+
+### English direct answer
+POST {{host}}/api/chat
+Content-Type: application/json
+
+{"siteCode":"demo","message":"How do I create an Acme Store account?","locale":"en"}
+
+### Korean direct answer
+POST {{host}}/api/chat
+Content-Type: application/json
+
+{"siteCode":"demo","message":"Acme Store 계정은 어떻게 만드나요?","locale":"ko"}
+
+### Vietnamese direct answer
+POST {{host}}/api/chat
+Content-Type: application/json
+
+{"siteCode":"demo","message":"Làm sao để đăng ký tài khoản Acme Store?","locale":"vi"}
+
+### Chinese suggestions
+POST {{host}}/api/chat
+Content-Type: application/json
+
+{"siteCode":"demo","message":"帳號","locale":"zh-TW"}
+
+### English suggestions
+POST {{host}}/api/chat
+Content-Type: application/json
+
+{"siteCode":"demo","message":"account","locale":"en"}
+
+### Korean suggestions
+POST {{host}}/api/chat
+Content-Type: application/json
+
+{"siteCode":"demo","message":"계정","locale":"ko"}
+
+### Vietnamese suggestions
+POST {{host}}/api/chat
+Content-Type: application/json
+
+{"siteCode":"demo","message":"tài khoản","locale":"vi"}
+
+### Chinese handoff
+POST {{host}}/api/chat
+Content-Type: application/json
+
+{"siteCode":"docs","message":"明天天氣如何？","locale":"zh-TW"}
+
+### English handoff
+POST {{host}}/api/chat
+Content-Type: application/json
+
+{"siteCode":"docs","message":"Will it rain tomorrow?","locale":"en"}
+
+### Korean handoff
+POST {{host}}/api/chat
+Content-Type: application/json
+
+{"siteCode":"docs","message":"내일 날씨는 어때요?","locale":"ko"}
+
+### Vietnamese handoff
+POST {{host}}/api/chat
+Content-Type: application/json
+
+{"siteCode":"docs","message":"Ngày mai trời có mưa không?","locale":"vi"}
+
+### Diagnose
+GET {{host}}/api/chat/diagnose?q=refund&site=demo&locale=en
+X-Admin-Key: {{admin}}
+
+### Import an existing FAQ (full four-language format)
+POST {{host}}/api/faqs/import
+Content-Type: application/json
+X-Admin-Key: {{admin}}
+
+[{"id":"demo.pickup","category":"shipping","enabled":true,"translations":{"en":{"question":"Can I pick up my parcel?","answer":"Pickup is unavailable. Please choose delivery.","alternateQuestions":["Is pickup available?","Can I collect it?"],"keywords":["pickup","collect","parcel"]},"zh-TW":{"question":"可以自取嗎？","answer":"目前不提供自取。請選擇配送。","alternateQuestions":["能自取嗎","可以自行領取嗎"],"keywords":["自取","領取","包裹"]},"ko":{"question":"직접 수령할 수 있나요?","answer":"직접 수령은 지원하지 않습니다. 배송을 선택해 주세요.","alternateQuestions":["방문 수령이 되나요","찾으러 가도 되나요"],"keywords":["수령","방문","택배"]},"vi":{"question":"Tôi có thể tự đến lấy hàng không?","answer":"Hiện chưa hỗ trợ tự lấy hàng. Vui lòng chọn giao hàng.","alternateQuestions":["Có thể nhận tại chỗ không","Tôi đến nhận được không"],"keywords":["tự lấy","nhận","giao hàng"]}}}]
+
+### Site switches
+GET {{host}}/api/sites
+X-Admin-Key: {{admin}}
+
+### Analytics
+GET {{host}}/api/analytics/summary?days=7
+X-Admin-Key: {{admin}}

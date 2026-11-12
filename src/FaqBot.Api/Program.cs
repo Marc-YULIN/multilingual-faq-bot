@@ -1,41 +1,47 @@
-var builder = WebApplication.CreateBuilder(args);
+using FaqBot.Api.Endpoints;
+using FaqBot.Infrastructure;
+using Scalar.AspNetCore;
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddProblemDetails(options => options.CustomizeProblemDetails = context =>
+    context.ProblemDetails.Extensions.TryAdd("code", "http_" + context.HttpContext.Response.StatusCode));
+builder.Services.AddExceptionHandler<SafeExceptionHandler>();
 builder.Services.AddOpenApi();
+builder.Services.AddHealthChecks();
+builder.Services.AddOptions<AdminOptions>().BindConfiguration("Admin").Configure(options =>
+{
+    if (builder.Environment.IsDevelopment() && string.IsNullOrEmpty(options.Key)) options.Key = "dev-admin-key";
+}).ValidateDataAnnotations().ValidateOnStart();
+builder.Services.AddFaqBotInfrastructure(builder.Configuration);
+builder.Services.PostConfigure<DataOptions>(options =>
+{
+    options.SeedPath = ResolveDataPath(options.SeedPath, builder.Environment.ContentRootPath);
+    options.SynonymsPath = ResolveDataPath(options.SynonymsPath, builder.Environment.ContentRootPath);
+});
 
 var app = builder.Build();
+app.UseExceptionHandler();
+app.UseStatusCodePages();
+app.UseDefaultFiles();
+app.UseStaticFiles();
+app.MapOpenApi();
+app.MapScalarApiReference();
+app.MapHealthChecks("/health");
+app.MapChat();
+app.MapFaqs();
+app.MapSites();
+app.MapAnalytics();
+await app.Services.GetRequiredService<FaqSeeder>().SeedAsync(app.Lifetime.ApplicationStopping);
+StartupLog.Initialized(app.Logger);
+await app.RunAsync();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+static string ResolveDataPath(string path, string root)
 {
-    app.MapOpenApi();
+    if (Path.IsPathRooted(path)) return path;
+    var contentPath = Path.GetFullPath(Path.Combine(root, path));
+    if (File.Exists(contentPath)) return contentPath;
+    var repositoryPath = Path.GetFullPath(Path.Combine(root, "../..", path));
+    return File.Exists(repositoryPath) ? repositoryPath : contentPath;
 }
 
-app.UseHttpsRedirection();
-
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
-
-app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
+public partial class Program;
