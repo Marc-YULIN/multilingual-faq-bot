@@ -19,6 +19,12 @@ Distilled from patterns I built and operated in production payment / membership 
 - A floating chat widget with language selection, session storage, suggestion chips, and response-source badges. No external browser dependencies.
 - A deterministic evaluator and 70 automated test cases, including isolated HTTP integration tests and stubbed external requests.
 
+## Screenshots
+
+<img src="docs/images/widget.png" alt="Embeddable chat widget: direct FAQ answer in Chinese and human handoff for an out-of-scope question">
+
+*Embeddable chat widget: direct FAQ answer in Chinese and human handoff for an out-of-scope question*
+
 ## Architecture
 
 ```mermaid
