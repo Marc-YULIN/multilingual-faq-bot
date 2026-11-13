@@ -2,6 +2,8 @@ English | [繁體中文](README.zh-TW.md)
 
 # Multilingual FAQ Help Center
 
+[![CI](https://github.com/Marc-YULIN/multilingual-faq-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/Marc-YULIN/multilingual-faq-bot/actions/workflows/ci.yml) ![.NET 10](https://img.shields.io/badge/.NET-10-512BD4) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 A retrieval-first customer support service in Traditional Chinese, English, Korean, and Vietnamese, with grounded generation and a human handoff boundary.
 
 ## Background

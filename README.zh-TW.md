@@ -2,6 +2,8 @@
 
 # 多語系 FAQ 智能客服
 
+[![CI](https://github.com/Marc-YULIN/multilingual-faq-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/Marc-YULIN/multilingual-faq-bot/actions/workflows/ci.yml) ![.NET 10](https://img.shields.io/badge/.NET-10-512BD4) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 支援繁體中文、英文、韓文與越南文的客服服務，先檢索 FAQ，再依據知識庫生成回答，資訊不足時轉真人。
 
 ## 背景
